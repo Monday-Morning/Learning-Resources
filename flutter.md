@@ -16,6 +16,11 @@ The following is are a couple of useful extensions:
 
 [State Management:](https://flutter.dev/docs/development/data-and-backend/state-mgmt)
 
+* InheritedWidget:
+InheritedWidget is Flutter's way of making data available from widgets higher in the widget hierarchy to widgets lower in the hierarchy. This will help you get rid of the cumbersome way of accessing data down the widget hierarchy by passing it via parameters in all the constructors of the intermediate widgets.Provider builds on the concept of InheritedWidgets and makes them more reusable and easy to work with. Learning this will help you better understand the implementation of Provider.
+1. [InheritedWidget documentation](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html) - **DO** check out the video on this page to understand how to work with InheritedWidget.
+2. [Understand the need for InheritedWidget](https://medium.com/@mehmetf_71205/inheriting-widgets-b7ac56dbbeb1)
+
 * Provider:
 
 1. [Provider introduction](https://www.youtube.com/watch?v=kDEflMYTFlk) 
@@ -50,7 +55,7 @@ Firebase with Flutter (FlutterFire):
 
 1. [Firebase playlist](https://www.youtube.com/watch?v=tKET5s_Vu-c&list=PLdTodMosi-Bzj6RIC2wGIkAxKtXPxDtca) on FilledStacks
 
-2. FlutterFire [documentation](https://firebase.flutter.dev). This is new
+2. FlutterFire [documentation](https://firebase.flutter.dev).
 
  
 
