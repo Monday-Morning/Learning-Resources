@@ -43,7 +43,7 @@ InheritedWidget is Flutter's way of making data available from widgets higher in
 
 * [Auto_Route](https://www.youtube.com/watch?v=iVpVBmDhpJY) ([Documentation](https://pub.dev/packages/auto_route))
 
-P.S.: We will stick to the stacked package and architecture for Monday Morning. These two videos are for understanding the packages better so that you can use them in your own way where you want. 
+[//]: # (P.S.: We will stick to the stacked package and architecture for Monday Morning. These two videos are for understanding the packages better so that you can use them in your own # way where you want.) 
 
 * Dependency Injection: Although provider can be used as a dependency injection solution as shown in the third video under the provider section, get_it is much simpler and easier to maintain the code.
 
@@ -51,11 +51,11 @@ P.S.: We will stick to the stacked package and architecture for Monday Morning. 
 
 2. get_it  [documentation](https://pub.dev/packages/get_it)
 
-Firebase with Flutter (FlutterFire):
+[FlutterFire(Flutter & Firebase)](https://firebase.flutter.dev):
 
-1. [Firebase playlist](https://www.youtube.com/watch?v=tKET5s_Vu-c&list=PLdTodMosi-Bzj6RIC2wGIkAxKtXPxDtca) on FilledStacks
+1. [FlutterFire documentation](https://firebase.flutter.dev/docs/)
+2. [The Net Ninja's playlist on Firebase with Flutter](https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC) - This is a good playlist to get started with    Firebase in Flutter.
+3. [Filledstacks' Firebase tutorial playlist](https://www.youtube.com/playlist?list=PLdTodMosi-Bzj6RIC2wGIkAxKtXPxDtca) - Firebase and Flutter using Provider and MVVM architecture. Knowledge of Provider and MVVM architecture is necessary to follow this playlist.
+4. [Resocoder's Firebase tutorial playlist](https://www.youtube.com/playlist?list=PLB6lc7nQ1n4iS5p-IezFFgqP6YvAJy84U) - Firebase and Flutter using Bloc. Knowledge of Bloc is required to follow this playlist.
 
-2. FlutterFire [documentation](https://firebase.flutter.dev).
-
- 
-
+P.S.: It is NOT necessary to go through all the videos in a playlist or learn about everything on a topic to work with it. It is perfectly fine to start with one thing, implement it, solve the errors and then go for the next thing. 
