@@ -20,6 +20,8 @@ The following is are a couple of useful extensions:
 InheritedWidget is Flutter's way of making data available from widgets higher in the widget hierarchy to widgets lower in the hierarchy. This will help you get rid of the cumbersome way of accessing data down the widget hierarchy by passing it via parameters in all the constructors of the intermediate widgets.Provider builds on the concept of InheritedWidgets and makes them more reusable and easy to work with. Learning this will help you better understand the implementation of Provider.
 1. [InheritedWidget documentation](https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html) - **DO** check out the video on this page to understand how to work with InheritedWidget.
 2. [Understand the need for InheritedWidget](https://medium.com/@mehmetf_71205/inheriting-widgets-b7ac56dbbeb1)
+3. [IneritedWidget in depth](https://medium.com/swlh/inherited-widgets-in-depth-2151aa136f5c#:~:text=So%20inherited%20widget%20is%20a,it%20can%20have%20a%20child.)
+
 
 * Provider:
 
@@ -30,6 +32,8 @@ InheritedWidget is Flutter's way of making data available from widgets higher in
 3. [Dependency injection using Provider](https://www.youtube.com/watch?v=VgrK_LlQRJ4)
 
 4. [Provider documentation](https://pub.dev/packages/provider)
+
+5. [Provider and ChangeNotifier Architecture](https://medium.com/@jgrandchavin/flutter-provider-changenotifier-architecture-guide-47ad05aa608e)
 
 * Stacked(This is exactly the things you will learn from the above tutorials, but now it’s in a package which takes care of the boilerplate for you and makes writing your code easier):
 
